@@ -36,5 +36,6 @@
 // ! ACCEPTANCE TEST
 /*
 1. Install updated panel to several clients ranging in size for 1 quarter and then compile data for editing. 
-2. After 1st quarter of testing, 2nd interation of panel update is rolled out again for another quarter and then compile data and update panel for second and final iteration. 
+2. After 1st quarter testing, 2nd interation of panel update is rolled out again for another quarter, then compile data and update panel for second and final iteration. 
+3. Roll out to remaining locations. 
 */
