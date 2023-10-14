@@ -54,7 +54,7 @@ let y = 5;
 // };
 
 //* 2nd Iteration:
-/*
+
 function multiplication() {
   typeof x === null || typeof y === null
     ? console.log(0)
@@ -63,7 +63,7 @@ function multiplication() {
     : console.log(x * y);
 }
 multiplication();
-*/
+
 
 //? 2. A function called "concatOdds" takes two arrays of integers as
 //? parameters.It should return a single array that only contains the
@@ -233,9 +233,10 @@ const purchaseItems = [
 ];
 
 // Validate Membership by member id || phoneNum
-function memValidation(shopperInput, array) {
+/*
+function memValidation() {
   for (i = 0; i < membershipInfo.length; i++) {
-    if (membershipInfo[i].phoneNum === shopperEntry) {
+    if (shopperEntry === membershipInfo[i].phoneNum || shopperEntry === membershipInfo[i].id) {
       return (memDiscount = 0.25);
     } else {
       //(membershipInfo[i].phoneNum !== shopperEntry){
@@ -247,5 +248,18 @@ function memValidation(shopperInput, array) {
   }
   return memDiscountl;
 };
+console.log(memValidation());
+*/
 
-console.log(memValidation(shopperEntry, membershipInfo));
+// Applying Discount to shopping cart values:
+let scannedItems = 123;
+let numOfItems = 3;
+const scannedItemsStore = [];
+const scannedItemsList = [];
+
+// Pushing scanned items 
+
+scannedItemsStore.push(scannedItems, numOfItems);
+scannedItemsList.push(scannedItemsStore);
+console.log(scannedItemsList);
+
